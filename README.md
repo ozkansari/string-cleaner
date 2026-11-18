@@ -4,4 +4,5 @@ Simple demo project
 
 ## Contributors
 
-Ozkan S.
+Ozkan Sari
+Medipol Students
