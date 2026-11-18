@@ -29,4 +29,8 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn -B package --file pom.xml
+    - name: jacoco-summary
+      uses: jjmrocha/jacoco-summary@v1.1.1
+      with:
+        jacoco-csv-file: target/site/jacoco/jacoco.csv
 
